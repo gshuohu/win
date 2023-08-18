@@ -14,7 +14,7 @@ import (
 type SCODE int32
 
 type EXCEPINFO struct {
-	wCode             uint17
+	wCode             uint16
 	wReserved         uint16
 	bstrSource        *uint16 /*BSTR*/
 	bstrDescription   *uint16 /*BSTR*/
